@@ -98,10 +98,13 @@ button.sign-up {
     color: #585858;
 }
 
+.container {
+    padding: 0 150px;
+}
+
 .info-container {
     display: flex;
-    justify-content: center;
-    gap: 48px;
+    justify-content: space-evenly;
 }
 
 .info-box {
