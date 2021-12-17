@@ -139,3 +139,26 @@ button.sign-up {
     color: #1f2937;
     text-align: right;
 }
+
+.action-container {
+    display: flex;
+    background-color: #3882F6;
+    padding: 56px 104px;
+    border-radius: 8px;
+    justify-content: space-evenly;
+}
+
+.call-to-action {
+    font-size: 24px;
+    font-weight: 800;
+    color: #e5e7eb;
+}
+
+/* fix this button border not working */
+button.sign-up.white {
+    border-color: #e5e7eb;
+}
+
+.action-padding{
+    padding: 100px 150px;
+}
