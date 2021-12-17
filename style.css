@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     min-height: 100vh;
@@ -75,8 +79,40 @@ button.sign-up {
     font-weight: 700;
     padding: 6px 36px;
     background-color: #3882F6;
-    border-color: #3882F6;
-    border-style: none;
+    border: #3882F6 none;
     border-radius: 8px;
     margin-top: 12px;
+}
+
+.info-header-text {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    padding: 48px;
+}
+
+.info-text {
+    text-align: center;
+    font-size: 18px;
+    color: #585858;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.info-box {
+    height: 100%;
+    width: 200px;
+}
+
+.info-image {
+    width: 100%;
+    padding-bottom: 100%;
+    border: 5px #3882F6 solid;
+    border-radius: 16px;
+    margin-bottom: 8px;
 }
