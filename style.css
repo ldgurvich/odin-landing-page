@@ -15,6 +15,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 16px;
 }
 
 .header-logo {
@@ -42,7 +43,7 @@ a {
 
 .hero {
     display: flex;
-    min-height: 300px;
+    padding: 100px 16px;
 }
 
 .hero-text,
@@ -77,4 +78,5 @@ button.sign-up {
     border-color: #3882F6;
     border-style: none;
     border-radius: 8px;
+    margin-top: 12px;
 }
