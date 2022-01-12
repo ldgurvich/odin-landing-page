@@ -25,7 +25,13 @@ body {
 }
 
 .wrapper--color {
-    background-color: rgb(60, 63, 70);
+    background-color: rgb(26, 26, 27);
+}
+
+.wrapper--light-color {
+    /* background-color: rgb(174, 176, 179); */
+    background-image: url(https://images.unsplash.com/photo-1444065933550-8dbbf6cd69cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    background-size: cover;
 }
 
 .header-wrapper {
@@ -34,7 +40,7 @@ body {
     max-width: 1440px;
     flex: 1;
     padding: 1rem 14rem 7rem;
-    gap: 7rem;
+    gap: 4rem;
 }
 
 .header {
@@ -91,6 +97,8 @@ p {
 
 .hero__right {
     flex: 1;
+    max-width: 500px;
+    /* max-height: 250px; */
     border-radius: 1rem;
     object-fit: cover;
 }
@@ -100,8 +108,8 @@ p {
 }
 
 .button {
-    background-color: dodgerblue;
-    border: none;
+    background-color: rgb(26, 26, 27);
+    border: solid white 2px;
     color: white;
     font-weight: bold;
     font-size: 1rem;
@@ -126,6 +134,7 @@ p {
 h2 {
     font-size: 2rem;
     margin-bottom: 2rem;
+    color: rgb(26, 26, 27);
 }
 
 .cards-wrapper{
@@ -151,7 +160,7 @@ h2 {
 }
 
 .card__description {
-    color: rgb(60, 63, 70);
+    color: rgb(74, 74, 75);
     margin: 0;
 }
 
@@ -164,6 +173,7 @@ h2 {
 .quote__text {
     font-style: italic;
     color: white;
+    font-weight: normal;
 }
 
 .quote__credit {
@@ -180,7 +190,7 @@ h2 {
 
 .cta {
     display: flex;
-    background-color: dodgerblue;
+    background-image: url(https://images.unsplash.com/photo-1534681479638-1c1e4ad373be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
     align-items: center;
     justify-content: space-between;
     padding: 2rem 6rem;
