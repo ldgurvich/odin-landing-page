@@ -111,14 +111,11 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding: 4rem 4rem;
     max-width: 1440px;
 }
 
-.title {
+h2 {
     font-size: 2rem;
     margin-bottom: 2rem;
 }
@@ -150,3 +147,52 @@ p {
     margin: 0;
 }
 
+/* Quote section */
+.quote-wrapper {
+    max-width: 1440px;
+    padding: 7rem 18rem;
+}
+
+.quote__text {
+    font-style: italic;
+    color: white;
+}
+
+.quote__credit {
+    text-align: end;
+    color: white;
+}
+
+/* CTA section */
+.cta-wrapper {
+    flex: 1;
+    max-width: 1440px;
+    padding: 6rem 14rem;
+}
+
+.cta {
+    display: flex;
+    background-color: dodgerblue;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 6rem;
+    border-radius: 0.5rem;
+    gap: 2rem;
+}
+
+.cta__left h3 {
+    color: white;
+}
+
+.cta__left p {
+    margin: 0;
+}
+
+.button--white-border {
+    border: solid white 2px;
+}
+
+/* Footer */
+.footer {
+    padding: 1rem;
+}
