@@ -37,40 +37,17 @@ header {
     display: flex;
 }
 
-.nav {
+ul {
     padding: 0;
     margin: 0;
     list-style-type: none;
 }
 
-.nav a {
+a {
     font-size: 18px;
     color: #e5e7eb;
     text-decoration: none;
     margin-left: 24px;
-}
-
-.hover-underline {
-    display: inline-block;
-    position: relative;
-    color: #e5e7eb;
-}
-
-.hover-underline:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    transform-origin: bottom right;
-    transition: transform .25s ease-out;
-}
-
-.hover-underline:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom-left;
 }
 
 .hero {
