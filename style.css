@@ -57,7 +57,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
-
 }
 
 .logo:hover {
@@ -73,8 +72,13 @@ body {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: rgb(0,0,0,0);
     color: white; 
+    transition: .3s ease-out;
+}
+
+a:hover {
+    text-decoration: underline 2px goldenrod;
 }
 
 .hero {
@@ -121,7 +125,7 @@ p {
 }
 
 .button {
-    background-color: rgb(18, 18, 19);
+    /* background-color: rgb(18, 18, 19); */
     border: solid white 2px;
     color: white;
     font-weight: bold;
@@ -129,10 +133,14 @@ p {
     padding: 0.5rem 2rem;
     border-radius: 0.5rem;
     cursor: pointer;
+    background: linear-gradient(to left, rgb(18, 18, 19) 50%, goldenrod 50%);
+    background-size: 250% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
 }
 
 .button:hover {
-    background-color: goldenrod;
+    background-position: left bottom;
 }
 
 /* Card section */
