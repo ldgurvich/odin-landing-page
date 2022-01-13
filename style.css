@@ -37,9 +37,9 @@ body {
 
 .header-wrapper {
     display: flex;
+    flex: 1;
     flex-direction: column;
     max-width: 1440px;
-    flex: 1;
     padding: 1rem 14rem 7rem;
     gap: 4rem;
 }
@@ -85,6 +85,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     gap: 2rem;
+    /* max-height: 250px; */
 }
 
 h1 {
@@ -100,17 +101,28 @@ p {
     margin-top: 1rem;
 }
 
+/* .hero__right {
+    display: flex;
+    flex: 1;
+    max-width: 500px;
+    max-height: 250px;
+    border-radius: 1rem;
+    object-fit: cover;
+} */
+
 .hero__right {
     display: flex;
     flex: 1;
     max-width: 500px;
     max-height: 250px;
     border-radius: 1rem;
+    object-fit: cover;
     overflow: hidden;
 }
 
 .hero__right img {
     max-width: 500px;
+    flex: 1;
     object-fit: cover;
     transition: transform .3s ease-out;
     transform: scale(1);
