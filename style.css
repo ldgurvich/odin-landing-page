@@ -246,3 +246,7 @@ h2 {
 .footer {
     padding: 1rem;
 }
+
+.footer a {
+    font-weight: bold;
+}
