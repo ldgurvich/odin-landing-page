@@ -25,13 +25,14 @@ body {
 }
 
 .wrapper--color {
-    background-color: rgb(26, 26, 27);
+    background-color: rgb(18, 18, 19);
 }
 
 .wrapper--light-color {
     /* background-color: rgb(174, 176, 179); */
-    background-image: url(https://images.unsplash.com/photo-1444065933550-8dbbf6cd69cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    background-image: url(https://images.unsplash.com/photo-1600995616615-52152934de1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
     background-size: cover;
+    background-position: bottom;
 }
 
 .header-wrapper {
